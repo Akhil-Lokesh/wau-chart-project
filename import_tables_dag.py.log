@@ -1,0 +1,197 @@
+[2025-03-27T13:39:09.069-0700] {processor.py:186} INFO - Started process (PID=71282) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:09.072-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:39:09.074-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.073-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:09.142-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:09.868-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.867-0700] {override.py:1930} INFO - Created Permission View: can read on DAG:load_raw_analytics_tables
+[2025-03-27T13:39:09.885-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.884-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG:load_raw_analytics_tables
+[2025-03-27T13:39:09.905-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.904-0700] {override.py:1930} INFO - Created Permission View: can edit on DAG:load_raw_analytics_tables
+[2025-03-27T13:39:09.940-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.940-0700] {override.py:1930} INFO - Created Permission View: can read on DAG Run:load_raw_analytics_tables
+[2025-03-27T13:39:09.962-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.962-0700] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:load_raw_analytics_tables
+[2025-03-27T13:39:09.979-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.979-0700] {override.py:1930} INFO - Created Permission View: can create on DAG Run:load_raw_analytics_tables
+[2025-03-27T13:39:09.991-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.991-0700] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:load_raw_analytics_tables
+[2025-03-27T13:39:09.992-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:09.992-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:39:10.010-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:10.010-0700] {dag.py:3262} INFO - Creating ORM DAG for load_raw_analytics_tables
+[2025-03-27T13:39:10.011-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:10.011-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:39:10.043-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.981 seconds
+[2025-03-27T13:39:12.502-0700] {processor.py:186} INFO - Started process (PID=71382) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:12.505-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:39:12.507-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:12.506-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:12.579-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:12.588-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:12.588-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:39:12.792-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:12.792-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:39:12.822-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.326 seconds
+[2025-03-27T13:39:15.364-0700] {processor.py:186} INFO - Started process (PID=71532) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:15.367-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:39:15.369-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:15.369-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:15.438-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:39:15.447-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:15.447-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:39:15.641-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:39:15.640-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:39:15.668-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.309 seconds
+[2025-03-27T13:40:07.972-0700] {processor.py:186} INFO - Started process (PID=73485) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:40:07.975-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:40:07.976-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:40:07.976-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:40:08.106-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:40:08.330-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:40:08.330-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:40:08.345-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:40:08.344-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:40:08.378-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.412 seconds
+[2025-03-27T13:41:07.245-0700] {processor.py:186} INFO - Started process (PID=75679) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:41:07.247-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:41:07.248-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:41:07.248-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:41:07.307-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:41:07.453-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:41:07.452-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:41:07.461-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:41:07.461-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:41:07.479-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.238 seconds
+[2025-03-27T13:44:08.516-0700] {processor.py:186} INFO - Started process (PID=82233) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:44:08.520-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:44:08.522-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:44:08.521-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:44:08.613-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:44:08.844-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:44:08.844-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:44:08.858-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:44:08.858-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:44:08.888-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.379 seconds
+[2025-03-27T13:45:54.106-0700] {processor.py:186} INFO - Started process (PID=86072) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:45:54.114-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:45:54.115-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:45:54.115-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:45:54.176-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:45:54.362-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:45:54.362-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:45:54.375-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:45:54.374-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:45:54.400-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.301 seconds
+[2025-03-27T13:46:44.938-0700] {processor.py:186} INFO - Started process (PID=87976) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:46:44.942-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:46:44.944-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:46:44.943-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:46:44.999-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:46:45.152-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:46:45.152-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:46:45.162-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:46:45.162-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:46:45.183-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.249 seconds
+[2025-03-27T13:49:57.487-0700] {processor.py:186} INFO - Started process (PID=95071) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:49:57.490-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:49:57.492-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:49:57.491-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:49:57.564-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:49:57.760-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:49:57.760-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:49:57.774-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:49:57.774-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:49:57.800-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.318 seconds
+[2025-03-27T13:51:22.107-0700] {processor.py:186} INFO - Started process (PID=98195) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:51:22.112-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:51:22.113-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:51:22.113-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:51:22.191-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:51:22.387-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:51:22.387-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:51:22.400-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:51:22.399-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:51:22.424-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.330 seconds
+[2025-03-27T13:52:11.983-0700] {processor.py:186} INFO - Started process (PID=99913) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:52:11.987-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:52:11.988-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:52:11.988-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:52:12.079-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:52:12.284-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:52:12.283-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:52:12.297-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:52:12.297-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:52:12.327-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.350 seconds
+[2025-03-27T13:55:20.218-0700] {processor.py:186} INFO - Started process (PID=7270) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:55:20.223-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:55:20.224-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:55:20.224-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:55:20.276-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:55:20.422-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:55:20.422-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:55:20.432-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:55:20.432-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:55:20.452-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.246 seconds
+[2025-03-27T13:57:07.863-0700] {processor.py:186} INFO - Started process (PID=11220) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:57:07.865-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:57:07.866-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:57:07.866-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:57:07.926-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:57:08.078-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:57:08.077-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:57:08.087-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:57:08.087-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:57:08.112-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.261 seconds
+[2025-03-27T13:58:11.431-0700] {processor.py:186} INFO - Started process (PID=13550) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:58:11.436-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T13:58:11.437-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:58:11.437-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:58:11.514-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T13:58:11.756-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:58:11.755-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T13:58:11.772-0700] {logging_mixin.py:190} INFO - [2025-03-27T13:58:11.772-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T13:58:11.802-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.377 seconds
+[2025-03-27T14:01:10.824-0700] {processor.py:186} INFO - Started process (PID=20155) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:01:10.827-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:01:10.828-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:01:10.828-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:01:10.897-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:01:11.073-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:01:11.073-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:01:11.085-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:01:11.085-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:01:11.111-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.293 seconds
+[2025-03-27T14:02:41.879-0700] {processor.py:186} INFO - Started process (PID=23563) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:02:41.881-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:02:41.883-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:02:41.882-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:02:41.928-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:02:42.071-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:02:42.070-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:02:42.079-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:02:42.079-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:02:42.098-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.223 seconds
+[2025-03-27T14:03:34.176-0700] {processor.py:186} INFO - Started process (PID=25429) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:03:34.178-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:03:34.179-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:03:34.179-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:03:34.229-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:03:34.370-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:03:34.370-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:03:34.378-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:03:34.378-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:03:34.406-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.235 seconds
+[2025-03-27T14:05:54.837-0700] {processor.py:186} INFO - Started process (PID=30895) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:05:54.841-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:05:54.842-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:05:54.842-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:05:54.955-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:05:55.136-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:05:55.136-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:05:55.147-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:05:55.147-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:05:55.182-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.351 seconds
+[2025-03-27T14:07:40.422-0700] {processor.py:186} INFO - Started process (PID=34819) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:07:40.424-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:07:40.425-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:07:40.425-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:07:40.488-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:07:40.651-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:07:40.650-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:07:40.661-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:07:40.661-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:07:40.682-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.276 seconds
+[2025-03-27T14:08:39.861-0700] {processor.py:186} INFO - Started process (PID=36928) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:08:39.863-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:08:39.864-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:08:39.864-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:08:39.911-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:08:40.059-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:08:40.059-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:08:40.068-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:08:40.068-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:08:40.100-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.243 seconds
+[2025-03-27T14:11:03.812-0700] {processor.py:186} INFO - Started process (PID=42281) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:11:03.815-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:11:03.817-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:11:03.816-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:11:03.876-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:11:04.048-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:11:04.047-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:11:04.059-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:11:04.059-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:11:04.083-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.277 seconds
+[2025-03-27T14:12:40.760-0700] {processor.py:186} INFO - Started process (PID=45928) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:12:40.763-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:12:40.764-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:12:40.764-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:12:40.837-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:12:41.023-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:12:41.023-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:12:41.035-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:12:41.035-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:12:41.063-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.315 seconds
+[2025-03-27T14:13:36.247-0700] {processor.py:186} INFO - Started process (PID=47978) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:13:36.251-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:13:36.252-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:13:36.252-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:13:36.324-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:13:36.523-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:13:36.522-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:13:36.535-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:13:36.535-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:13:36.565-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.324 seconds
+[2025-03-27T14:16:09.616-0700] {processor.py:186} INFO - Started process (PID=53564) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:16:09.624-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:16:09.625-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:16:09.625-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:16:09.703-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:16:09.889-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:16:09.888-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:16:09.899-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:16:09.899-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:16:09.924-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.316 seconds
+[2025-03-27T14:17:43.251-0700] {processor.py:186} INFO - Started process (PID=57139) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:17:43.254-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:17:43.255-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:17:43.255-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:17:43.313-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:17:43.475-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:17:43.474-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:17:43.485-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:17:43.485-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:17:43.515-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.269 seconds
+[2025-03-27T14:18:40.235-0700] {processor.py:186} INFO - Started process (PID=59261) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:18:40.238-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:18:40.239-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:18:40.239-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:18:40.298-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:18:40.486-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:18:40.486-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:18:40.497-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:18:40.496-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:18:40.522-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.299 seconds
+[2025-03-27T14:21:04.561-0700] {processor.py:186} INFO - Started process (PID=64498) to work on /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:21:04.563-0700] {processor.py:914} INFO - Processing file /Users/spartan/airflow/dags/import_tables_dag.py for tasks to queue
+[2025-03-27T14:21:04.565-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:21:04.564-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:21:04.613-0700] {processor.py:925} INFO - DAG(s) 'load_raw_analytics_tables' retrieved from /Users/spartan/airflow/dags/import_tables_dag.py
+[2025-03-27T14:21:04.762-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:21:04.762-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T14:21:04.771-0700] {logging_mixin.py:190} INFO - [2025-03-27T14:21:04.771-0700] {dag.py:4180} INFO - Setting next_dagrun for load_raw_analytics_tables to None, run_after=None
+[2025-03-27T14:21:04.791-0700] {processor.py:208} INFO - Processing /Users/spartan/airflow/dags/import_tables_dag.py took 0.234 seconds
